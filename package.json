@@ -1,0 +1,11 @@
+{
+  "name": "trader",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ccxt": "^1.10.847",
+    "console-stamp": "^0.2.6",
+    "node-schedule": "^1.2.5",
+    "node-fetch": "^1.7.3"
+  }
+}

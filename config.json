@@ -1,0 +1,48 @@
+{
+    "size": 5,
+    "reserve": 2,
+    "delay": 10000,
+    "trade": false,
+    "threshold": 95,
+    "automatic": true,
+    "portfolio": false,
+    "hierarchical": true,
+    "exchanges": ["bitstamp", "kraken", "bitfinex"],
+    "schedule": false,
+    "balances": false,
+    "verbose": false,
+    "excludes": [],
+    "maximum": 100,
+    "weights": {
+        "BTC": 0.5
+    },
+    "bases": {
+        "bitfinex": "USD",
+        "bitstamp": "USD",
+        "kraken": "BTC"
+    },
+    "manual": {
+        "bitstamp": {
+            "BTC": 20,
+            "ETH": 20,
+            "XRP": 20,
+            "BCH": 20,
+            "LTC": 20
+        }
+    },
+    "keys": {
+        "bitstamp": {
+            "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXX",
+            "secret": "XXXXXXXXXXXXXXXXXXXXXXXX",
+            "uid": 12345
+        },
+        "kraken": {
+            "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXX",
+            "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
+        },
+        "bitfinex": {
+            "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXX",
+            "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
+        }
+    }
+}
